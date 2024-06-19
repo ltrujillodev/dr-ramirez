@@ -157,7 +157,7 @@ a {
   margin-left: 0.3em;
   transition: all 0.3s ease-in-out;
 }
-.section-pacientes-buttons button:hover .svg-wrapper {
+.section-pacientes-buttons button:hover .section-pacientes-button-svg {
   animation: fly-1 0.6s ease-in-out infinite alternate;
 }
 .section-pacientes-buttons button:hover svg {

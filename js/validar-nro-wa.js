@@ -1,5 +1,5 @@
 let errorNroIngresado = 0;
-function escribirPacienteWhatsApp() {
+function validarNroWA() {
   let nroPaciente = document.getElementById("footer-paciente-wa").value;
   var mensaje = "Hola, soy el Dr. Ramirez";
   var encodedText = encodeURIComponent(mensaje);
