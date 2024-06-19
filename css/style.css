@@ -88,3 +88,99 @@ a {
 .header-navigation a:hover {
   color: var(--dorado);
 }
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+/* FOOTER */
+.footer {
+  background-color: var(--blanco);
+  margin-top: 57.5rem;
+}
+.footer-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 5rem;
+}
+.footer-contenedor section {
+  text-align: center;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer-info p {
+  font-size: 1.6rem;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer-nav a {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.footer-nav a:hover {
+  color: var(--dorado);
+}
+.footer-escribir-paciente {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+.footer-escribir-paciente p {
+  font-size: 1.6rem;
+}
+.footer-escribir-paciente-titulo {
+  font-weight: bold;
+}
+.footer-escribir-paciente input {
+  text-align: center;
+  padding: 0;
+  border-radius: 0.5rem;
+  border-color: var(--azul);
+  width: 75%;
+}
+.footer-escribir-paciente button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--blanco);
+  background-color: var(--azul);
+  width: 50%;
+  height: 15%;
+  border-radius: 0.5rem;
+  border: none;
+}
+.footer-escribir-paciente button:hover {
+  background-color: var(--dorado);
+  color: var(--azul);
+}
+.footer-rrss {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer-rrss p {
+  font-size: 1.6rem;
+}
+.footer-rrss-titulo {
+  font-weight: bold;
+}
+.footer-rrss-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+.footer-copyright {
+  background-color: var(--dorado);
+}
+.footer-copyright p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1.5rem;
+}
