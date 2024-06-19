@@ -15,14 +15,9 @@ function escribirPacienteWhatsApp() {
     errorNroIngresado < 2
   ) {
     errorNroIngresado++;
-    alert(
-      errorNroIngresado +
-        "Número incorrecto.\nIntento " +
-        errorNroIngresado +
-        " de 3"
-    );
+    alert("Número incorrecto.\nIntento " + errorNroIngresado + " de 3");
   } else {
-    alert("Intentos agotados\nSe borra el número ingresado.");
+    alert("Intentos agotados.");
     document.getElementById("footer-paciente-wa").value = "";
     window.location.href = "index.html";
   }
