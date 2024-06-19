@@ -1,0 +1,90 @@
+/* PALETA DE COLORES */
+:root {
+  --oscuro: #131517;
+  --blanco: #f7f9f9;
+  --amarillo: #ffc300;
+  --celeste: #aed6f1;
+  --verdeFuerte: #27ae60;
+  --verdesuave: #daf7a6;
+  --rojo: #de3f33;
+  --coral: #ff7f50;
+  --dorado: #d7b269;
+  --azul: #0b1b34;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+/* GLOBALES */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  /* color: var(--blanco); */
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--azul);
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+/* TIPOGRAFIA */
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: bold;
+}
+h1 {
+  font-size: 8rem;
+  line-height: 12.5rem;
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+a {
+  color: var(--azul);
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+/* HEADER */
+.header {
+  background-color: var(--blanco);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2.5rem;
+}
+.header-logo {
+  margin-left: 9rem;
+}
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin-right: 2.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.header-navigation a:hover {
+  color: var(--dorado);
+}
